@@ -23,6 +23,7 @@ public_users.get('/isbn/:isbn',function (req, res) {
   
 // Get book details based on author
 public_users.get('/author/:author',function (req, res) {
+    let queried_books = {}
     
 });
 
